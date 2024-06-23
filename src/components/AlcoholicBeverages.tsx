@@ -5,19 +5,20 @@ import car01Image from '../assets/car01.jpg';
 import car02Image from '../assets/car02.jpg';
 import car03Image from '../assets/car03.jpg';
 import car04Image from '../assets/car04.jpg';
-import Badge from 'react-bootstrap/Badge';
+import ProductGrid from './ProductGrid';
 
 const AlcoholicBeverages: React.FC = () => {
   return (
     <div>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#">Loja de Bebidas</Navbar.Brand>
+
+          <Navbar.Brand href="#">EMPÓRIO CACHAÇA</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#">Home</Nav.Link>
-              <Nav.Link href="#">Produtos</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/productg">Produtos</Nav.Link>
               <Nav.Link href="#">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -109,6 +110,7 @@ const AlcoholicBeverages: React.FC = () => {
           </div>
         </div>
       </Container>
+      
     </div>
   );
 };

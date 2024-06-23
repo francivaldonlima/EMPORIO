@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  background-image: url('.assets/loja.jpgGIT');
+  background-image: url('./assets/loja.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
