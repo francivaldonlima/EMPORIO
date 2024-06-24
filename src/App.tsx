@@ -4,6 +4,9 @@ import AgeCheck from './components/AgeCheck';
 import AlcoholicBeverages from './components/AlcoholicBeverages';
 import NoPermission from './components/NoPermission';
 import ProductGrid from './components/ProductGrid';
+import Sobre from './components/Sobremin';
+import MyNavbar from './components/Navbar';
+
 
 const App: React.FC = () => {
   return (
@@ -12,10 +15,15 @@ const App: React.FC = () => {
         <Route path="/" element={<AgeCheck />} />
         <Route path="/alcoholic-beverages" element={<AlcoholicBeverages />} />
         <Route path="/no-permission" element={<NoPermission />} />
-        <Route path="/product" element={<ProductGrid />} />
+        <Route path="/product-grid" element={<ProductGrid />} />
+        <Route path="/sobre-min" element={<Sobre />} />
+       
       </Routes>
+      
     </Router>
+    
   );
+  <MyNavbar/>
 };
 
 export default App;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import ProductGrid from './ProductGrid';
+
+
 
 interface ProductProps {
   title: string;
@@ -18,10 +19,15 @@ const Product: React.FC<ProductProps> = ({ title, description, imgUrl }) => {
       </Card.Body>
     </Card>
 
+    
+
   );
 };
 
-<ProductGrid />
+
+
+
+
 
 
 

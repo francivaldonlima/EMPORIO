@@ -1,29 +1,21 @@
 import React from 'react';
-import { Navbar, Container, Nav, Carousel, Card, Row, Col } from 'react-bootstrap';
+import { Container, Carousel, Card, } from 'react-bootstrap';
 import cachacaImage from '../assets/cachaca01.webp';
 import car01Image from '../assets/car01.jpg';
 import car02Image from '../assets/car02.jpg';
 import car03Image from '../assets/car03.jpg';
 import car04Image from '../assets/car04.jpg';
-import ProductGrid from './ProductGrid';
+import MyNavbar from './Navbar';
+
 
 const AlcoholicBeverages: React.FC = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg">
-        <Container>
 
-          <Navbar.Brand href="#">EMPÓRIO CACHAÇA</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/productg">Produtos</Nav.Link>
-              <Nav.Link href="#">Contato</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <MyNavbar/>
+
+
+
       <Container className="d-flex flex-column vh-100 justify-content-center align-items-center">
         <div className="p-5 rounded shadow bg-white text-center" style={{ width: '1000px', height: '1000' }}>
           <h1 className="mb-4">Loja de Bebidas Alcoólicas</h1>
@@ -68,11 +60,11 @@ const AlcoholicBeverages: React.FC = () => {
                 alt="Vodka"
               />
               <Card.Body>
-              <Carousel.Caption className="bg-dark-transparent d-none d-md-block">
-                <h3>PRODUTOS DO BARÃO</h3>
-                <p>CACHAÇA, MEL E RAPADURA DE CEARÁ-MIRIM/RN .</p>
-                
-              </Carousel.Caption>
+                <Carousel.Caption className="bg-dark-transparent d-none d-md-block">
+                  <h3>PRODUTOS DO BARÃO</h3>
+                  <p>CACHAÇA, MEL E RAPADURA DE CEARÁ-MIRIM/RN .</p>
+
+                </Carousel.Caption>
               </Card.Body>
             </Carousel.Item>
           </Carousel>
@@ -110,7 +102,7 @@ const AlcoholicBeverages: React.FC = () => {
           </div>
         </div>
       </Container>
-      
+
     </div>
   );
 };
