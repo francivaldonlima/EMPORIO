@@ -6,6 +6,7 @@ import NoPermission from './components/NoPermission';
 import ProductGrid from './components/ProductGrid';
 import Sobre from './components/Sobremin';
 import MyNavbar from './components/Navbar';
+import UserRegistration from './components/UserRegistration';
 
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/alcoholic-beverages" element={<AlcoholicBeverages />} />
         <Route path="/no-permission" element={<NoPermission />} />
         <Route path="/product-grid" element={<ProductGrid />} />
+        <Route path="/cadastro-usuario" element={<UserRegistration />} />
         <Route path="/sobre-min" element={<Sobre />} />
        
       </Routes>

@@ -26,13 +26,6 @@ const ProductGrid: React.FC = () => {
     return (
         <div>
 
-
-
-
-
-
-
-
             <MyNavbar />
             <h1>Produtos</h1>
             <Container className="d-flex flex-column vh-100  align-items-center">

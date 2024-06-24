@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Carousel, Card, } from 'react-bootstrap';
-import cachacaImage from '../assets/cachaca01.webp';
+import cachacaImage01 from '../assets/cachaca01.png';
+import cachacaImage02 from '../assets/cachaca02.png';
 import car01Image from '../assets/car01.jpg';
 import car02Image from '../assets/car02.jpg';
 import car03Image from '../assets/car03.jpg';
@@ -71,28 +72,28 @@ const AlcoholicBeverages: React.FC = () => {
           <div className="mt-4">
             <div className="d-flex justify-content-around">
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={cachacaImage} />
+                <Card.Img variant="top" src={cachacaImage01} />
                 <Card.Body>
                   <Card.Title>Vinho</Card.Title>
                   <Card.Text className="text-dark">Descrição do vinho.</Card.Text>
                 </Card.Body>
               </Card>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://via.placeholder.com/150x100.png?text=Cerveja" />
+                <Card.Img variant="top" src={cachacaImage02} />
                 <Card.Body>
                   <Card.Title>Cerveja</Card.Title>
                   <Card.Text>Descrição da cerveja.</Card.Text>
                 </Card.Body>
               </Card>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://via.placeholder.com/150x100.png?text=Whisky" />
+                <Card.Img variant="top" src={cachacaImage01} />
                 <Card.Body>
                   <Card.Title>Whisky</Card.Title>
                   <Card.Text>Descrição do whisky.</Card.Text>
                 </Card.Body>
               </Card>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://via.placeholder.com/150x100.png?text=Vodka" />
+                <Card.Img variant="top" src={cachacaImage02} />
                 <Card.Body>
                   <Card.Title>Vodka</Card.Title>
                   <Card.Text>Descrição da vodka.</Card.Text>
