@@ -1,6 +1,51 @@
 import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 import MyNavbar from './Navbar';
+import usuariosService from "../../services/usuarios";
+
+
+
+type FormProps = {
+  usuarios: Array<Usuario>;
+  setUsuarios: (usuarios: Array<Usuario>) => void;
+};
+
+function Form(props: FormProps) {
+  const [name, setName] = useState("");
+  const [address, setAddress] = useState("");
+  const [cpf, setCpf] = useState("");
+  const [birthDate, setBirthDate] = useState("");
+  const [cep, setCep] = useState("");
+  const [phone, setPhone] = useState
+
+}
+
+
+  const salvarUsuario = async function () {
+    const novoUsuario: Usuario = {
+      name,
+      address,
+      cpf,
+      birthDate,
+      cep,
+      phone
+    };
+
+    const usuarioCriado = await usuariosService.criarUsuario(novoUsuario);
+
+    props.setUsuarios([...props.usuarios, usuarioCriado]);
+
+    name,
+    address,
+    cpf,
+    birthDate,
+    cep,
+    phone
+    
+  };
+
+
+
 
 const UserRegistration: React.FC = () => {
   const [formData, setFormData] = useState({
