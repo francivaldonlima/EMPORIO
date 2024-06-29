@@ -2,63 +2,63 @@
   "users": [
     {
       "id": "1",
-      "name": "John Doe",
-      "email": "john@example.fr",
-      "phone": "1"
+      "name": "Ana Clara Silva",
+      "email": "ana.silva@example.com",
+      "phone": "(11) 91234-5678"
     },
     {
       "id": "2",
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "phone": "9876543210"
+      "name": "Carlos Eduardo Santos",
+      "email": "carlos.santos@example.com",
+      "phone": "(21) 98765-4321"
     },
     {
       "id": "3",
-      "name": "Alice Johnson",
-      "email": "alice@example.com",
-      "phone": "555555555"
+      "name": "Fernanda Oliveira",
+      "email": "fernanda.oliveira@example.com",
+      "phone": "(31) 99876-5432"
     },
     {
       "id": "4",
-      "name": "LATER Yousra Zahra h",
-      "email": "yousra.later@univ-constantine2.dz",
-      "phone": "06670445"
+      "name": "João Pedro Almeida",
+      "email": "joao.almeida@example.com",
+      "phone": "(41) 92345-6789"
     },
     {
       "id": "5",
-      "name": "Lyna",
-      "email": "lyna@gmail.com",
-      "phone": "0445"
+      "name": "Mariana Costa",
+      "email": "mariana.costa@example.com",
+      "phone": "(51) 93456-7890"
     },
     {
       "id": "6",
-      "name": "Douaa",
-      "email": "DL@gmail.com",
-      "phone": "57756786786"
+      "name": "Ricardo Ferreira",
+      "email": "ricardo.ferreira@example.com",
+      "phone": "(61) 94567-8901"
     },
     {
-      "name": "Hannane",
-      "email": "HanLyna@gmail.com",
-      "phone": "02786576",
-      "id": "7"
+      "id": "7",
+      "name": "Patrícia Lima",
+      "email": "patricia.lima@example.com",
+      "phone": "(71) 95678-9012"
     },
     {
-      "id": "df33",
-      "name": "BBBB",
-      "email": "bbb@bbb.com",
-      "phone": "123654789"
+      "id": "8",
+      "name": "Gabriel Souza",
+      "email": "gabriel.souza@example.com",
+      "phone": "(81) 96789-0123"
     },
     {
-      "id": "926e",
-      "name": "qqqq",
-      "email": "qqqq@qqq.com",
-      "phone": "7531598426"
+      "id": "9",
+      "name": "Juliana Ribeiro",
+      "email": "juliana.ribeiro@example.com",
+      "phone": "(91) 97890-1234"
     },
     {
-      "id": "f927",
-      "name": "SSS",
-      "email": "SSS@SS.COM",
-      "phone": "999"
+      "id": "10",
+      "name": "Pedro Henrique Gomes",
+      "email": "pedro.gomes@example.com",
+      "phone": "(11) 98901-2345"
     }
   ]
 }
