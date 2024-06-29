@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
-const NoPermission: React.FC = () => {
+const NaoPermitido: React.FC = () => {
   const navigate = useNavigate();
 
   const handleBackToHome = () => {
@@ -20,4 +20,4 @@ const NoPermission: React.FC = () => {
   );
 };
 
-export default NoPermission;
+export default NaoPermitido;

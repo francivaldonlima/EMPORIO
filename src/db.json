@@ -1,82 +1,64 @@
-[
+{
+  "users": [
     {
-        "name": "Maria Silva",
-        "address": "Rua das Flores, 123",
-        "cpf": "123.456.789-00",
-        "birthDate": "1990-05-20",
-        "cep": "01000-000",
-        "phone": "(11) 98765-4321"
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.fr",
+      "phone": "1"
     },
     {
-        "name": "João Souza",
-        "address": "Avenida Paulista, 1500",
-        "cpf": "987.654.321-00",
-        "birthDate": "1985-10-10",
-        "cep": "01310-100",
-        "phone": "(11) 91234-5678"
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "9876543210"
     },
     {
-        "name": "Ana Oliveira",
-        "address": "Rua das Palmeiras, 450",
-        "cpf": "123.987.654-00",
-        "birthDate": "1992-03-15",
-        "cep": "02000-200",
-        "phone": "(21) 99876-5432"
+      "id": "3",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "555555555"
     },
     {
-        "name": "Carlos Pereira",
-        "address": "Praça da Sé, 100",
-        "cpf": "789.456.123-00",
-        "birthDate": "1980-07-25",
-        "cep": "01001-010",
-        "phone": "(11) 92345-6789"
+      "id": "4",
+      "name": "LATER Yousra Zahra h",
+      "email": "yousra.later@univ-constantine2.dz",
+      "phone": "06670445"
     },
     {
-        "name": "Fernanda Lima",
-        "address": "Rua das Acácias, 300",
-        "cpf": "654.321.987-00",
-        "birthDate": "1995-11-05",
-        "cep": "03000-300",
-        "phone": "(11) 93456-7890"
+      "id": "5",
+      "name": "Lyna",
+      "email": "lyna@gmail.com",
+      "phone": "0445"
     },
     {
-        "name": "Ricardo Alves",
-        "address": "Avenida Brasil, 800",
-        "cpf": "321.654.987-00",
-        "birthDate": "1975-02-20",
-        "cep": "04000-400",
-        "phone": "(11) 94567-8901"
+      "id": "6",
+      "name": "Douaa",
+      "email": "DL@gmail.com",
+      "phone": "57756786786"
     },
     {
-        "name": "Patrícia Gomes",
-        "address": "Rua dos Ipês, 600",
-        "cpf": "456.123.789-00",
-        "birthDate": "1988-09-30",
-        "cep": "05000-500",
-        "phone": "(11) 95678-9012"
+      "name": "Hannane",
+      "email": "HanLyna@gmail.com",
+      "phone": "02786576",
+      "id": "7"
     },
     {
-        "name": "Marcos Fernandes",
-        "address": "Avenida das Nações, 900",
-        "cpf": "789.123.456-00",
-        "birthDate": "1982-12-15",
-        "cep": "06000-600",
-        "phone": "(11) 96789-0123"
+      "id": "df33",
+      "name": "BBBB",
+      "email": "bbb@bbb.com",
+      "phone": "123654789"
     },
     {
-        "name": "Juliana Santos",
-        "address": "Rua dos Lírios, 700",
-        "cpf": "987.321.654-00",
-        "birthDate": "1993-06-10",
-        "cep": "07000-700",
-        "phone": "(11) 97890-1234"
+      "id": "926e",
+      "name": "qqqq",
+      "email": "qqqq@qqq.com",
+      "phone": "7531598426"
     },
     {
-        "name": "Pedro Rodrigues",
-        "address": "Praça da Liberdade, 200",
-        "cpf": "654.987.321-00",
-        "birthDate": "1987-04-05",
-        "cep": "08000-800",
-        "phone": "(11) 98901-2345"
+      "id": "f927",
+      "name": "SSS",
+      "email": "SSS@SS.COM",
+      "phone": "999"
     }
-]
+  ]
+}

@@ -10,7 +10,7 @@ const AgeCheck: React.FC = () => {
     if (typeof age === 'number' && age >= 18) {
       navigate('/alcoholic-beverages');
     } else {
-      navigate('/no-permission');
+      navigate('/nao-permitido');
     }
   };
 
